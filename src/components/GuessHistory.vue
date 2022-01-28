@@ -18,7 +18,7 @@ function highlightLetter (letter) {
 
 <template>
   <ul class="w-full flex flex-col-reverse gap-2">
-    <li v-for="word in history" :key="word" class="flex flex-row flex-nowrap justify-between items-center uppercase gap-2 animate-animated animate-bounce-in">
+    <li v-for="word in history" :key="word" class="flex flex-row flex-nowrap justify-between items-center gap-x-2 mb-2 uppercase animate-animated animate-bounce-in">
       <div
         v-for="(letter, i) in word"
         :key="i"

@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-teal-100 mt-12 border-t border-teal-200 text-teal-900 text-center w-full flex flex-col justify-center items-center gap-0 sm:flex-row sm:gap-x-8">
+  <footer class="bg-teal-100 mt-12 pb-4 border-t border-teal-200 text-teal-900 text-center w-full flex flex-col justify-center items-center gap-0 sm:flex-row sm:gap-x-8">
     <div class="p-4 text-center sm:text-right">
       <h3 class="font-semibold text-xl">Tutorial</h3>
       <ul>

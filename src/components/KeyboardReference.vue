@@ -24,13 +24,13 @@ function highlightKey (key) {
         classes = 'bg-amber-400 border-amber-200 text-amber-900 animate-animated animate-pulse'
         break
       default:
-        classes = 'bg-gray-700 border-gray-200 text-gray-300 animate-animated animate-pulse'
+        classes = 'bg-gray-600 border-gray-200 text-gray-300 animate-animated animate-pulse'
         break
     }
 
     return classes
   } else {
-    return 'bg-teal-50 border-teal-200 text-teal-300'
+    return 'bg-teal-200 border-teal-300 text-teal-400'
   }
 }
 </script>
