@@ -1,0 +1,22 @@
+{
+  "name": "wordle-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^7.5.4",
+    "axios": "^0.25.0",
+    "pinia": "^2.0.9",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@windicss/plugin-animations": "^1.0.9",
+    "vite": "^2.7.2",
+    "vite-plugin-windicss": "^1.6.3",
+    "windicss": "^3.4.3"
+  }
+}
