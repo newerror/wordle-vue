@@ -16,7 +16,6 @@ export function getVictoryMessage (tries) {
   }
   if (tries > 1) {
     return MESSAGES[Math.floor(Math.random() * MESSAGES.length)]
-  } else {
-    return 'Luckyyy!'
-  }
+  } 
+   return 'Luckyyy!'
 }
